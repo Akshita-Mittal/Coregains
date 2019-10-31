@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/lightbox2/css/lightbox.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!--===============================================================================================-->
+    <style>
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.p-b-30 {
+    padding-bottom: 30px !important;
+}
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+    margin-right: 10px;
+    color: #b8b8b8;
+    text-decoration: none;
+    display: inline;
+    font-weight: 700;
+    border: none;
+        font-size: 18px;
+}
+
+.btn:focus {
+  border: none;
+    box-shadow: none;
+}
+
+.btn.active {
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+}
+</style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header1">
+        <!-- Header desktop -->
+        <div class="container-menu-header">
+            <div class="topbar">
+                <div class="topbar-social">
+                    <a href="#" class="topbar-social-item fa fa-facebook"></a>
+                    <a href="#" class="topbar-social-item fa fa-twitter"></a>
+                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                </div>
+
+                <div class="topbar-child2">
+                    <span class="topbar-text">
+                        ORDERS FOR DECEMBER BOXES ARE NOW OPEN! --- ALL DECEMBER ORDERS ARE SHIPPED ON DECEMBER 4TH! --- USE CODE "CG10" FOR 10% OFF YOUR FIRST MONTHS BOX!
+                    </span>
+
+
+                </div>
+            </div>
+
+            <div class="wrap_header">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="assets/images/icons/logo.png" alt="IMG-LOGO">
+                </a>
+
+                <!-- Menu -->
+                <div class="wrap_menu">
+                    <nav class="menu">
+                        <ul class="main_menu">
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">How It Works</a>
+                            </li>
+
+                            <li>
+                                <a href="supplier.html">Suppliers</a>
+                            </li>
+
+                            <li>
+                                <a class="active" href="blog.html">Blog</a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Header Icon -->
+                <div class="header-icons">
+                    <div class="header-wrapicon2">
+                        <img src="assets/images/icons/online-shopping-cart.png" class="header-icon1 js-show-header-dropdown" alt="ICON">Cart
+                        <span class="header-icons-noti">0</span>
+
+                        <!-- Header cart noti -->
+                        <div class="header-cart header-dropdown">
+                            <ul class="header-cart-wrapitem">
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="assets/images/blog/blog-01.png" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Health
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $19.00
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="assets/images/blog/blog-02.png" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Fitness
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $39.00
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="assets/images/blog/blog-03.png" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Food
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $17.00
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="header-cart-total">
+                                Total: $75.00
+                            </div>
+
+                            <div class="header-cart-buttons">
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        View Cart
+                                    </a>
+                                </div>
+
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="checkout.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        Check Out
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <span class="linedivide1"></span>
+
+                    <a href="#" class="header-login dis-block" data-toggle="modal" data-target=".bd-example-modal-lg">Login</a>
+                    <a href="subscribe.html" class="header-subscribe">Subscribe Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="wrap_header_mobile">
+            <!-- Logo moblie -->
+            <a href="index.html" class="logo-mobile">
+                <img src="assets/images/icons/logo.png" alt="IMG-LOGO">
+            </a>
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu">
+                <!-- Header Icon mobile -->
+                <div class="header-icons-mobile">
+                    <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <img src="assets/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                    </a>
+
+                    <span class="linedivide2"></span>
+
+                    <div class="header-wrapicon2">
+                        <img src="assets/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                        <span class="header-icons-noti">0</span>
+
+                        <!-- Header cart noti -->
+                        <div class="header-cart header-dropdown">
+                            <ul class="header-cart-wrapitem">
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="assets/images/blog/blog-01.png" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Health
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $19.00
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="assets/images/blog/blog-02.png" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Fitness
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $39.00
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="header-cart-item">
+                                    <div class="header-cart-item-img">
+                                        <img src="assets/images/blog/blog-03.png" alt="IMG">
+                                    </div>
+
+                                    <div class="header-cart-item-txt">
+                                        <a href="#" class="header-cart-item-name">
+                                            Food
+                                        </a>
+
+                                        <span class="header-cart-item-info">
+                                            1 x $17.00
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="header-cart-total">
+                                Total: $75.00
+                            </div>
+
+                            <div class="header-cart-buttons">
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        View Cart
+                                    </a>
+                                </div>
+
+                                <div class="header-cart-wrapbtn">
+                                    <!-- Button -->
+                                    <a href="checkout.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                        Check Out
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="wrap-side-menu">
+            <nav class="side-menu">
+                <ul class="main-menu">
+
+
+                    <li class="item-menu-mobile">
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li class="item-menu-mobile">
+                        <a href="about.html">About Us</a>
+                    </li>
+
+                    <li class="item-menu-mobile">
+                        <a href="#">How It Works</a>
+                    </li>
+
+                    <li class="item-menu-mobile">
+                        <a href="supplier.html">Suppliers</a>
+                    </li>
+
+                    <li class="item-menu-mobile">
+                        <a class="active" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="item-menu-mobile">
+                        <a href="contact.html">Contact US</a>
+                    </li>
+                    
+                    <li class="item-menu-mobile">
+                       <a href="subscribe.html">Subscribe Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Title Page -->
+    <section class="bg-title-page p-t-50 p-b-50 flex-col-c-m">
+        <h2 class="l-text2 p-t-30 t-center">
+            Blog
+        </h2>
+        <p class="p-b-28 p-t-30 t-center sub-heading">
+            Proin aliquam magna ac quam rutrum malesuada.
+            <br /> Amet dui lobortis auctor.
+        </p>
+    </section>
+
+    <div class="page__section">
+        <ul class="breadcrumbs breadcrumbs_type1">
+            <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__element">Home</a></li>
+            <li class="breadcrumbs__item breadcrumbs__item_active"><a href="blog.html" class="breadcrumbs__element">Blog</a></li>
+
+        </ul>
+    </div>
+    <!-- Blog -->
+
+
+    <section class="blog bgwhite p-t-40 p-b-65">
+        <div class="container">
+            <div class="portfolioFilter p-b-20" id="myBtnContainer">
+                <ul class='sort-nav'>
+                    <li>
+
+                        <a href="#" class="category">Categories</a>
+
+                    </li>
+
+                    <li>
+                        <button class="btn active" onclick="filterSelection('all')"> All</button>
+
+                    </li>
+                    <li>
+                        <button class="btn" onclick="filterSelection('entertainment')"> Entertainment</button>
+                    </li>
+                    <li>
+                        <button class="btn" onclick="filterSelection('fitness')"> Fitness</button>
+                    </li>
+                    <li>
+                        <button class="btn" onclick="filterSelection('food')"> Food</button>
+                    </li>
+                    <li>
+                        <button class="btn" onclick="filterSelection('health')"> Health</button>
+                    </li>
+                    <li>
+                        <button class="btn" onclick="filterSelection('product')"> Product</button>
+                    </li>
+                    <li>
+                        <button class="btn" onclick="filterSelection('sports')"> Sports</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto health">
+                    <!-- Block1 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-01.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-1"><span class="s-text6 p-l-15"> Health</span></div>
+
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
+                            </p>
+
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="blog-inner.html" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto fitness">
+                    <!-- Block2 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-02.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-2"><span class="s-text6 p-l-15">Fitness</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            </p>
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto food">
+                    <!-- Block3 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-03.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-3"><span class="s-text6 p-l-15">Food</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            </p>
+
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto fitness">
+                    <!-- Block2 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-02.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-2"><span class="s-text6 p-l-15">Fitness</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            </p>
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto health">
+                    <!-- Block1 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-01.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-1"><span class="s-text6 p-l-15"> Health</span></div>
+
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
+                            </p>
+
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="blog-inner.html" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto food">
+                    <!-- Block3 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-03.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-3"><span class="s-text6 p-l-15">Food</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            </p>
+
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto health">
+                    <!-- Block1 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-01.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-1"><span class="s-text6 p-l-15"> Health</span></div>
+
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
+                            </p>
+
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="blog-inner.html" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto food">
+                    <!-- Block3 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-03.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-3"><span class="s-text6 p-l-15">Food</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            </p>
+
+                            <p class="meta clearfix p-l-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto fitness">
+                    <!-- Block2 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-02.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-2"><span class="s-text6 p-l-15">Fitness</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Curabitur molestie dolor
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            </p>
+                            <p class="meta clearfix"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- END GRID -->
+            </div>
+
+        </div>
+    </section>
+
+    <section class="subscribe-area pb-50 p-t-50">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="subscribe-text">
+                        <h2>subscribe now!</h2>
+                        <span>Lorem Ipsum is simply dummy typesetting industry.</span>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="subscribe-wrapper subscribe2-wrapper">
+                        <div class="subscribe-form">
+                            <form action="#" class="subscribe">
+                                <input placeholder="Email ID" type="email">
+                                <a href="subscribe.html">subscribe</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="subscribe-text">
+                        <h4>social links</h4>
+                    </div>
+
+                    <div class="flex-m p-t-20">
+                        <a href="#" class="fs-18 color2 p-r-20 fa fa-facebook"></a>
+                        <a href="#" class="fs-18 color2 p-r-20 fa fa-instagram"></a>
+                        <a href="#" class="fs-18 color2 p-r-20 fa fa-twitter"></a>
+                        <a href="#" class="fs-18 color2 fa fa-envelope"></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Login popup-->
+
+    <div id="loginpopup" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <form class="modal-content animate" action="/action_page.php">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6" style="padding: 0">
+                                    <div class="left"></div>
+                                </div>
+                                <div class="col-md-6 p-t-30">
+                                    <h2 class="login l-text2 t-center">
+                                        Login
+                                    </h2>
+                                    <p class="t-center login-sub-heading">
+                                        Enter your email address & password
+                                        <br /> to acess your account
+                                    </p>
+                                    <p class="p-b-28 t-center login-sub-heading">
+                                        Don’t have an account ?<a href="#" data-toggle="modal" data-target="#signup" data-dismiss="modal"><span class="signup"> Sign Up!</span></a>
+                                    </p>
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Username" name="uname" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="password" placeholder="Password" name="psw" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="login">LOGIN</button>
+                                    </div>
+                                    <p class="p-t-10 p-b-30 t-center forget">
+                                        <a href="#" data-toggle="modal" data-target="#forgotpas" data-dismiss="modal"><span class="forget_pwd">Forget Your Password?</span></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--forgot Modal -->
+    <div id="forgotpas" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <form class="modal-content animate" action="/action_page.php">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 p-t-30">
+                                    <h2 class="login l-text2 t-center">
+                                        Forgot Password?
+                                    </h2>
+                                    <p class="forget-pwd heading">
+                                        Enter email address
+                                        <br /> associated with your account
+                                    </p>
+                                    <p class="forget-pwd sub-heading">
+                                        We will email you a link to <a href="#" data-toggle="modal" data-target="#resetpas" data-dismiss="modal"><span class="reset_pwd">reset</span></a> your password
+                                    </p>
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Enter Email Address" name="email" required="">
+                                    </div>
+                                    <div class="col-md-12 p-b-40">
+                                        <button type="submit" class="submit">SUBMIT</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    
+    
+<!--Reset Modal -->
+    <div id="resetpas" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <form class="modal-content animate" action="/action_page.php">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 p-t-30">
+                                    <h2 class="login l-text2 t-center">
+                                        Reset Password
+                                    </h2>
+                                    <p class="reset-pwd heading">
+                                        Maecenas varius antelobortis auctor.
+                                    </p>
+                                    
+                                    <div class="col-md-12">
+                                        <input type="password" placeholder="Enter New Password" name="password" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="password" placeholder="Confirm New Password" name="password" required="">
+                                    </div>
+                                    <div class="col-md-12 p-b-40">
+                                        <button type="submit" class="submit">SAVE</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--signup -->
+
+    <div id="signup" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <form class="modal-content animate" action="/action_page.php">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6" style="padding: 0">
+                                    <div class="left">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 p-t-30">
+                                    <h2 class="login l-text2 t-center">
+                                        Sign Up
+                                    </h2>
+                                    <p class="t-center login-sub-heading">
+                                        Proin aliquam magna ac quam rutrum
+                                        <br /> malesuada.
+                                    </p>
+
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Name" name="uname" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Email Address" name="email" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Phone Number" name="phone" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="password" placeholder="Password" name="psw" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="password" placeholder="Confirm Password" name="password" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="login">LOGIN</button>
+                                    </div>
+                                    <p class="t-center login-sub-heading p-b-40">
+                                        Already have an account? <a href="#" data-toggle="modal" data-target="#loginpopup" data-dismiss="modal"><span style="color: #658b43; font-weight: 600"> Sign in</span></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+
+   <footer class="bg6 p-t-50 p-b-43 p-l-45 p-r-45">
+        <div class="container flex-w">
+            <div class="respon3 col-md-5">
+                <a href="index.html">
+                    <img src="assets/images/icons/logo-footer.png" alt="IMG-LOGO">
+                </a>
+
+                <div>
+                    <p class="s-text7 w-size27 p-t-30">
+                        Nullam sagittis ligula quis euismod malesuada.<br> Donec at rutrum lacus, sit amet vulputate arcu.<br> Sed facilisis, justo non congue ornare, tortor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="respon4 col-md-4">
+                <h4 class="links s-text12">
+                Quick link
+                </h4>
+
+                <div class="wrp p-t-20">
+                    <ul>
+                        <li class="p-b-9">
+                            <a href="index.html" class="s-text7">
+                        Home
+                        </a>
+                        </li>
+
+                        <li class="p-b-9">
+                            <a href="about.html" class="s-text7">
+                        About Us
+                        </a>
+                        </li>
+
+                        <li class="p-b-9">
+                            <a href="#" class="s-text7">
+                        How it works
+                        </a>
+                        </li>
+
+                        <li class="p-b-9">
+                            <a href="supplier.html" class="s-text7">
+                        Supplier
+                        </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="p-b-9">
+                            <a href="terms_of_service.html" class="s-text7">
+                        Terms &amp; Condition
+                        </a>
+                        </li>
+
+                        <li class="p-b-9">
+                            <a href="FAQ.html" class="s-text7">
+                        FAQ
+                        </a>
+                        </li>
+
+                        <li class="p-b-9">
+                            <a href="policy.html" class="s-text7">
+                            Privacy policy
+                        </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="respon4 col-md-3">
+                <h4 class="s-text12">
+                    Contact Us
+                </h4>
+
+                <ul class="p-t-20">
+                    <li class="p-b-9">
+
+                        <i class="fa fa-envelope"></i>
+                        <a href="#" class="s-text7">
+                            coregainsofficialgmail.com
+                        </a>
+                    </li>
+
+                    <li class="p-b-9">
+                        <i class="fa fa-phone"></i>
+                        <a href="#" class="s-text7">
+                            12366-1256-596
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-left p-l-10 pull-left">
+                Copyright © 2018 CoreGain
+            </div>
+            <div class="footer-right p-r-10 pull-right">
+                Created By clixlogix
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <!-- Container Selection1 -->
+    <div id="dropDownSelect1"></div>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="assets/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="assets/vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="assets/vendor/select2/select2.min.js"></script>
+    <script type="text/javascript">
+        $(".selection-1").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="assets/vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="assets/vendor/lightbox2/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="assets/js/main.js"></script>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</body>
+
+</html>

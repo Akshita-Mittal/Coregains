@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/lightbox2/css/lightbox.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<style>
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+    margin-right: 10px;
+    color: #b8b8b8;
+    text-decoration: none;
+    display: inline;
+    font-weight: 700;
+    border: none;
+}
+
+.btn:focus {
+  border: none;
+    box-shadow: none;
+}
+
+.btn.active {
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+}
+</style>
+</head>
+<body>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<div class="portfolioFilter p-b-40" id="myBtnContainer">
+    <ul class='sort-nav'>
+      <li>
+        
+        <a href="#" class="category">Categories</a>
+          
+      </li>
+        
+      <li>
+           <button class="btn vl-1 active" onclick="filterSelection('all')"> All</button>
+        
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('entertainment')"> Entertainment</button>
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('fitness')"> Fitness</button>
+      </li>
+      <li>
+         <button class="btn" onclick="filterSelection('food')"> Food</button>
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('health')"> Health</button>
+      </li>
+      <li>
+          <button class="btn" onclick="filterSelection('product')"> Product</button>
+      </li>
+      <li>
+          <button class="btn" onclick="filterSelection('sports')"> Sports</button>
+      </li>
+    </ul>
+  </div>  
+<div >
+ 
+  
+ 
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  
+  <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto health">
+                    <!-- Block1 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-01.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-1"><span class="s-text6 p-l-15"> Health</span></div>
+                           
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
+                            </p>
+                            
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="blog-inner.html" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                            
+                        </div>
+                    </div>
+  </div>
+    <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto fitness">
+                    <!-- Block2 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-02.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                             <div class="vl-2"><span class="s-text6 p-l-15">Fitness</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            </p>
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                
+  </div>
+  <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto food">
+                    <!-- Block3 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-03.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-3"><span class="s-text6 p-l-15">Food</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            </p>
+                            
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+               
+  </div>
+
+
+    <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto fitness">
+                    <!-- Block2 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-02.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                             <div class="vl-2"><span class="s-text6 p-l-15">Fitness</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            </p>
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                
+  </div>
+        <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto health">
+                    <!-- Block1 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-01.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-1"><span class="s-text6 p-l-15"> Health</span></div>
+                           
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
+                            </p>
+                            
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="blog-inner.html" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                            
+                        </div>
+                    </div>
+  </div>
+  <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto food">
+                    <!-- Block3 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-03.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-3"><span class="s-text6 p-l-15">Food</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            </p>
+                            
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+               
+  </div>
+   
+    <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto health">
+                    <!-- Block1 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-01.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-1"><span class="s-text6 p-l-15"> Health</span></div>
+                           
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
+                            </p>
+                            
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="blog-inner.html" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                            
+                        </div>
+                    </div>
+  </div>
+    
+  <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto food">
+                    <!-- Block3 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-03.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                            <div class="vl-3"><span class="s-text6 p-l-15">Food</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            </p>
+                            
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+               
+  </div>
+        <div class="column col-sm-10 col-md-4 p-b-30 m-l-r-auto fitness">
+                    <!-- Block2 -->
+                    <div class="block3">
+                        <a href="#" class="block3-img dis-block hov-img-zoom">
+                            <img src="assets/images/blog/blog-02.png" alt="IMG-BLOG">
+                        </a>
+
+                        <div class="block3-txt p-t-14">
+                             <div class="vl-2"><span class="s-text6 p-l-15">Fitness</span></div>
+
+                            <h4 class="p-b-7">
+                                <a href="#" class="m-text11 p-l-20">
+                                    Lorem Ipsum
+                                </a>
+                            </h4>
+
+
+                            <p class="s-text8 p-t-16 p-l-20">
+                                Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            </p>
+                            <p class="meta clearfix p-l-20 p-t-20"><a href="#" class="author-link">By Robbe leng | <span style="color: #888">Apr 19</span></a> <a href="#" class="read-more p-r-20"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
